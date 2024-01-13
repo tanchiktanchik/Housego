@@ -1,8 +1,8 @@
 test:
-	@echo 'Мы сделали Makefile'
+@echo 'Мы сделали Makefile'
 
 up:
-	sudo -S docker-compose up --build awesome-project
+sudo docker-compose up —build awesome-project
 
 stop:
-	sudo -S docker-compose stop
+sudo docker-compose stop
